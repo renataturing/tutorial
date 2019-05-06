@@ -127,7 +127,7 @@ To https://github.com/renataturing/tutorial.git
 ```
 A partir desse link, você pode criar um pull request para o dono do repositório:
 
-![Pull Request](/Pictures/tutorial1.png)
+![Pull Request](https://github.com/renataturing/tutorial/blob/master/img/tutorial1.png?raw=true)
 
 
 
