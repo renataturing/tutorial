@@ -133,6 +133,11 @@ O dono do repositório pode então dar um merge ou não no pull request:
 
 ![Pull Request](https://github.com/renataturing/tutorial/blob/master/img/tutorial2.png?raw=true)
 
+Para saber se todos os seus arquivos estão atualizados, digite:
+
+```console
+$ git status
+```
 
 
 
