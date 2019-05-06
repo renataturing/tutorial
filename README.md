@@ -46,3 +46,9 @@ Para criar um novo branch, e entrar nele, digite:
 ```console
 $ git checkout -b *um nome qualquer*
 ```
+Se você digitar o comando
+
+```console
+$ git branch
+```
+ele irá retornar em qual branch você está - o que é importante para saber em **qual branch você está realizando as alterações**.
