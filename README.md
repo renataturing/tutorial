@@ -51,4 +51,36 @@ Se você digitar o comando
 ```console
 $ git branch
 ```
-ele irá retornar em qual branch você está - o que é importante para saber em **qual branch você está realizando as alterações**.
+ele irá retornar em qual branch você está - o que é importante para saber em **qual branch você está realizando as alterações**. Por exemplo:
+
+```console
+$ git branch
+  alteracaoRenata
+* master
+```
+
+O nome que aparece com um * do lado é o nome do branch em que você está. Nesse caso, você está no master. Eu criei um outro branch chamado *alteracaoRenata*, por isso aparecem os dois. Agora vou retornar para o branch *alteracaoRenata*.
+
+```console
+$ git checkout alteracaoRenata
+```
+
+Escrevendo de novo o comando 
+
+```console
+$ git branch
+* alteracaoRenata
+  master
+```
+
+ele vai me informar que estou no branch alteracaoRenata.
+Vamos agora fazer uma alteração no código que está no arquivo tutorial.py.  
+- Abra o arquivo em algum editor de texto,
+- Escreva 
+```python
+print("*seu nome*")
+```
+
+
+
+
