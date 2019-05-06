@@ -129,7 +129,9 @@ A partir desse link, você pode criar um pull request para o dono do repositóri
 
 ![Pull Request](https://github.com/renataturing/tutorial/blob/master/img/tutorial1.png?raw=true)
 
+O dono do repositório pode então dar um merge ou não no pull request:
 
+![Pull Request](https://github.com/renataturing/tutorial/blob/master/img/tutorial2.png?raw=true)
 
 
 
