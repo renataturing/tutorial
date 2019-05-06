@@ -1,6 +1,7 @@
 ### Tutorial
 
-Esse é um **tutorial** de como usar o GitHub:exclamation: 
+Esse é um **tutorial** de como usar o GitHub!  
+
 Para isso, vamos utilizar documentos simples como exemplos para o que vamos fazer.
 Primeiramente, você deve ter o git instalado no seu computador. 
 
