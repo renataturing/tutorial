@@ -30,7 +30,8 @@ Para checar em qual branch você está, digite:
 ```console
 $ git checkout
 ```
-Isso irá retornar onde você está, e qual arquivos estão presentes nesse branch.
+
+Isso irá retornar os arquivos estão presentes nesse branch.
 Por examplo:
 
 ```console
@@ -38,5 +39,10 @@ M	tutorial.py
 Your branch is up to date with 'origin/master'.
 ```
 
-Isso quer dizer que eu estou no *branch* **master** (M), e o arquivo que está nesse branch é o **tutorial.py**.
+Isso quer dizer que no *branch* **master** (M) há o arquivo **tutorial.py**.
 
+Para criar um novo branch, e entrar nele, digite:
+
+```console
+$ git checkout -b *um nome qualquer*
+```
