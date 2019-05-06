@@ -17,11 +17,79 @@ ou
 $ git --help
 ```  
 
-Se aparecer a versão do git, ou uma lista com os comandos que podem ser usados, o git está instalado no seu computador normalmente.  
+Se aparecer a versão do git, ou uma lista com os comandos que podem ser usados, o git está instalado no seu computador.
 
-Para começar a usar o git, vamos baixar os arquivos para fazer algusn testes.  
+Para começar a usar o git, vamos baixar os arquivos para fazer alguns testes.  
 Abra a linha de comando e digite:  
 
 ```console
 $ git clone https://github.com/renataturing/tutorial.git
 ```
+Agora, digite 
+
+```console
+$ git chekout
+```
+
+Isso irá retornar os arquivos estão presentes nesse branch, e se ele está atualizado ou não.
+Por examplo:
+
+```console
+M	tutorial.py
+Your branch is up to date with 'origin/master'.
+```
+
+Isso quer dizer que no *branch* há o arquivo **tutorial.py**.
+
+Para criar um novo branch, e entrar nele, digite:
+
+```console
+$ git checkout -b *um nome qualquer*
+```
+Se você digitar o comando
+
+```console
+$ git branch
+```
+ele irá retornar em qual branch você está - o que é importante para saber em **qual branch você está realizando as alterações**. Por exemplo:
+
+```console
+$ git branch
+  alteracaoRenata
+* master
+```
+
+O nome que aparece com um * do lado é o nome do branch em que você está. Nesse caso, você está no master. Eu criei um outro branch chamado *alteracaoRenata*, por isso aparecem os dois. Agora vou retornar para o branch *alteracaoRenata*.
+
+```console
+$ git checkout alteracaoRenata
+```
+
+Escrevendo de novo o comando 
+
+```console
+$ git branch
+* alteracaoRenata
+  master
+```
+
+ele vai me informar que estou no branch alteracaoRenata.  
+
+Se eu usar o comando *--remote*, ele vai me retornar quais são os branchs na origem.
+ 
+ ```console
+$ git branch --remote
+  origin/HEAD -> origin/master
+  origin/master
+```
+
+Vamos agora fazer uma alteração no código que está no arquivo tutorial.py.  
+- Abra o arquivo em algum editor de texto,
+- Escreva 
+```python
+print("*seu nome*")
+```
+
+
+
+
