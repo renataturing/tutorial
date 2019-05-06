@@ -83,12 +83,34 @@ $ git branch --remote
   origin/master
 ```
 
-Vamos agora fazer uma alteração no código que está no arquivo tutorial.py.  
+Vamos agora fazer uma alteração no código que está no arquivo tutorial.py. Para isso:  
 - Abra o arquivo em algum editor de texto,
 - Escreva 
 ```python
 print("*seu nome*")
 ```
+Agora vamos colocar esse arquivo nessa nova branch:
+- Volte para a linha de comando,
+- Digite
+```console
+$ git commit .
+```
+
+Isso vai mandar o arquivo para o novo branch que você fez.
+
+Se você digitar *git checkout* vai ver quais são as diferenças que ocorreram após você alterar os arquivos, por exemplo:
+```console
+$ git checkout
+Your branch and 'origin/master' have diverged,
+and have 1 and 7 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+```
+
+
+
+
+
+
 
 
 
