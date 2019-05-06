@@ -1,1 +1,1 @@
-print("Bem-vindo ao tutoral de git!")
+print("Bem-vindo ao tutorial de git!")
