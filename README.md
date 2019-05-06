@@ -25,3 +25,18 @@ Abra a linha de comando e digite:
 ```console
 $ git clone https://github.com/renataturing/tutorial.git
 ```
+Para checar em qual branch você está, digite:
+
+```console
+$ git checkout
+```
+Isso irá retornar onde você está, e qual arquivos estão presentes nesse branch.
+Por examplo:
+
+```console
+M	tutorial.py
+Your branch is up to date with 'origin/master'.
+```
+
+Isso quer dizer que eu estou no *branch* **master** (M), e o arquivo que está nesse branch é o **tutorial.py**.
+
