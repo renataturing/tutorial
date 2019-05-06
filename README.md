@@ -25,13 +25,13 @@ Abra a linha de comando e digite:
 ```console
 $ git clone https://github.com/renataturing/tutorial.git
 ```
-Para checar em qual branch você está, digite:
+Agora, digite 
 
 ```console
-$ git checkout
+$ git chekout
 ```
 
-Isso irá retornar os arquivos estão presentes nesse branch.
+Isso irá retornar os arquivos estão presentes nesse branch, e se ele está atualizado ou não.
 Por examplo:
 
 ```console
@@ -39,7 +39,7 @@ M	tutorial.py
 Your branch is up to date with 'origin/master'.
 ```
 
-Isso quer dizer que no *branch* **master** (M) há o arquivo **tutorial.py**.
+Isso quer dizer que no *branch* há o arquivo **tutorial.py**.
 
 Para criar um novo branch, e entrar nele, digite:
 
@@ -73,7 +73,16 @@ $ git branch
   master
 ```
 
-ele vai me informar que estou no branch alteracaoRenata.
+ele vai me informar que estou no branch alteracaoRenata.  
+
+Se eu usar o comando *--remote*, ele vai me retornar quais são os branchs na origem.
+ 
+ ```console
+$ git branch --remote
+  origin/HEAD -> origin/master
+  origin/master
+```
+
 Vamos agora fazer uma alteração no código que está no arquivo tutorial.py.  
 - Abra o arquivo em algum editor de texto,
 - Escreva 
