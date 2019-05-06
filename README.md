@@ -106,6 +106,33 @@ and have 1 and 7 different commits each, respectively.
   (use "git pull" to merge the remote branch into yours)
 ```
 
+Para mandar o arquivo e criar um pull request, digite:
+
+```console
+$ git push origin *nome do seu branch*
+```
+
+Isso vai retornar a seguinte mensagem:
+
+```console
+Username for 'https://github.com': *seu nome de usuário*
+Password for 'https://*seu nome de usuário*@github.com': 
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for '*seu branch*' on GitHub by visiting:
+remote:      https://github.com/renataturing/tutorial/pull/new/*seu branch*
+remote: 
+To https://github.com/renataturing/tutorial.git
+ * [new branch]     *seu branch* -> *seu branch*
+```
+A partir desse link, você pode criar um pull request para o dono do repositório:
+
+![Pull Request](/Pictures/tutorial1.png)
+
+
+
+
+
 
 
 
