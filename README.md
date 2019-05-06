@@ -22,5 +22,5 @@ Para começar a usar o git, vamos baixar os arquivos para fazer algusn testes.
 Abra a linha de comando e digite:  
 
 ```console
-$ git clone 
+$ git clone https://github.com/renataturing/tutorial.git
 ```
