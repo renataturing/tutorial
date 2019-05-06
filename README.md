@@ -17,7 +17,7 @@ ou
 $ git --help
 ```  
 
-Se aparecer a versão do git, ou uma lista com os comandos que podem ser usados, o git está instalado no seu computador normalmente.  
+Se aparecer a versão do git, ou uma lista com os comandos que podem ser usados, o git está instalado no seu computador.
 
 Para começar a usar o git, vamos baixar os arquivos para fazer algusn testes.  
 Abra a linha de comando e digite:  
